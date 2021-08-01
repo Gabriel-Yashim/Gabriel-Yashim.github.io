@@ -40,8 +40,7 @@
 .nav-link:hover{
     letter-spacing: 5px;
     color: red;
-    text-decoration: underline !important;
-    border-bottom: 2px solid tomato;
+    border-bottom: 1px solid tomato;
 }
 
 h1{
@@ -121,7 +120,7 @@ h2{
 
 #f-img .f-img{
     height: 400px;
-    width: 260px;
+    width: 280px;
     padding-left: 40px;
     position: relative;
     color: black;
