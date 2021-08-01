@@ -53,10 +53,10 @@ h1{
 
 h2{
     margin: 0 30px 0px 0px;
-    text-align: center;
+    text-align: center !important;
     font-family: Verdana ;
-    font-size: 200%;
-    color: rgb(87, 87, 223);
+    font-size: 200% !important;
+    
 }
 
 #body {
