@@ -3,11 +3,112 @@
 
 <head>
     <title>Summer Coding Camp</title>
+    <style>
+        body {
+            background-image: url("img/clouds.jpg");
+            background-attachment: fixed;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        a {
+            text-decoration: none;
+        }
+    </style>
 </head>
 
 <body>
-    <p>This is an iframe</p>
-    <iframe src="home.html" frameborder="0"></iframe>
+    <section>
+        <header>
+            <h1 id="top">Welcome To My Demo Webpage!</h1>
+        </header>
+        <a href="#top"><button>Goto Top</button></a>
+    </section>
+    <section>
+        <h2>A Quick Intro</h2>
+        <p>Hello guys, my name is <u>Gabriel Yashim</u>. I am a 300 level Computer Science Student of The
+            <strong>Federal
+                University Lokoja</strong>.<br> Welcome to <b>Teens Coding Camp</b>, The first of it's kind in Lokoja.
+            This
+            is
+            actually a demo webpage that will serve as an <br> exercise for the student to check if they really
+            understood
+            what
+            they were taught on <b>HTML</b>
+        </p>
+        <h3>Below are a list of some of the topics covered:</h3>
+        <ul>
+            <p>Introductory <b>HTML</b></p>
+            <li>Meaning of <b>HTML</b></li>
+            <li>Structure of a Webpage</li>
+            <li>Syntax for writting <b>HTML</b></li>
+            <li>Parent-Child Relationship (Indentation)</li>
+        </ul>
+
+        <h4>Other topics taught include:</h4>
+        <ol>
+            <p>Some specific <b>HTML</b> tags</p>
+            <li>HEader Tag</li>
+            <li>Paragraph Tag</li>
+            <li>Formatting Text</li>
+            <li>Ordered and Unordered lists</li>
+        </ol>
+        <hr>
+        <h2>Now let's add and format an image in our webpage to make it look mor attractive</h2>
+        <img src="img/beXhKn.jpg" alt="web-image" height="400px" width="400px">
+        <img src="img/workplace.jpg" alt="laptop">
+        <img src="img/site4.jpg" alt="laptop" width="370px" height="365px">
+
+        <h3>The image below was HOT-LINKED from <a
+                href="https://gabriel-yashim.github.io">https://gabriel-yashim.github.io</a>
+        </h3>
+        <img src="https://gabriel-yashim.github.io/img/IMG_7264.JPG.jpg" alt="sample" height="400px" width="300px">
+        <hr>
+
+        <h2>Form Section</h2>
+        <form action="">
+            <p>Fill the simple form below to send us your feedback</p>
+            <p><label for="text">Enter Name</label>
+                <input type="text">
+            </p>
+
+            <p><label for="text">Enter Email</label>
+                <input type="email">
+            </p>
+            <p><label for="text"><b>How was the coding camp?</b></label></p>
+            <p>Fun<input type="radio" name="same"></p>
+            <p>Hard<input type="radio" name="same"></p>
+            <p>Boring<input type="radio" name="same"></p>
+
+            <p><b>Which was your Favourite topic?</b></p>
+            <select name="likes" id="">
+                <option value="">Formatting text</option>
+                <option value="">Costomizing image</option>
+                <option value="">Hot-linking</option>
+                <option value="">Linking webpages</option>
+                <option value="">Iframes</option>
+            </select>
+
+            <p><label>Comments </label></p>
+            <p><textarea name="comments" id="" cols="30" rows="10"></textarea>
+            </p>
+
+            <input type="checkbox"> Are you sure about the information you provided?
+
+            <p><button><a href="https://gabriel-yashim.github.io/About.html">Submit</a></button></p>
+        </form>
+        <hr>
+        <p>Below is an Iframe of my Porfolio website I hosted on GitHub</p>
+        <iframe src="https://gabriel-yashim.github.io/index.html" frameborder="0" height="300px" width="600px"></iframe>
+        <hr>
+        <a href="#top"><button>Goto Top</button></a>
+    </section>
+    <section>
+        <footer>
+
+            <marquee id="down" direction="">&COPY;Teens_Coding_Camp2021</marquee>
+        </footer>
+    </section>
 </body>
 
 </html>
