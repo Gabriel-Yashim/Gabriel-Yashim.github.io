@@ -9268,6 +9268,40 @@ textarea.form-control {
 
 .contact-section .contact-info p a {
   color: #fff; }
+#status.success{
+  background-color:rgba(40, 167, 69, 0.9);
+  border-radius: 5px;
+  width: 215px;
+  text-align: center;
+  padding: 2px;
+  color: white;
+  margin: 0px 10px 10px 600px;
+  animation: status 4s ease forwards;
+}
+/* #status.error{
+  background-color: red;
+  border-radius: 5px;
+  width: 215px;
+  text-align: center;
+  padding: 2px;
+  color: white;
+  margin: 0px 10px 10px 600px;
+  animation: status 4s ease forwards;
+} */
+@keyframes status{
+  0%{
+    opacity: 1;
+    pointer-events: all;
+  }
+  90%{
+    opacity: 1;
+    pointer-events: all;
+  }
+  100%{
+    opacity: 0;
+    pointer-events: all;
+  }
+}
 
 .contact-section .contact-form {
   width: 100%; }
