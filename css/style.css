@@ -9278,7 +9278,7 @@ textarea.form-control {
   margin: 0px 10px 10px 600px;
   animation: status 4s ease forwards;
 }
-/* #status.error{
+#status.error{
   background-color: red;
   border-radius: 5px;
   width: 215px;
@@ -9287,7 +9287,7 @@ textarea.form-control {
   color: white;
   margin: 0px 10px 10px 600px;
   animation: status 4s ease forwards;
-} */
+}
 @keyframes status{
   0%{
     opacity: 1;
